@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.row {
+  padding: 0;
+}
+
+.navbar {
+  background-color: #fff;
+  text-decoration: none;
+  height: 10vh !important;
+  position: fixed;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  z-index: 10;
+}
+
+.navbar-logo {
+  color: #003c43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #003c43;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 10vh;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar-nav a:hover {
+  background-color: #003c43;
+  color: #fff;
+}
+
+.col-7 {
+  background-color: #003c43;
+}
+
+.isi-kiri {
+  color: #fff;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 10vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.isi-kiri h1 {
+  font-size: 4em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.btn-lanjut {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  width: 200px;
+  font-size: small;
+  text-decoration: none;
+  transition: background-color 0.4s;
+}
+
+.btn-lanjut .scrollTo {
+  text-decoration: none;
+  color: #003c43;
+}
+
+.btn-lanjut:hover {
+  background-color: #c7c7c7;
+  color: #003c43;
+}
+
+.btn-lanjut:active {
+  background-color: #8a8a8a;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+.col-5 {
+  height: 100vh !important;
+  background-color: #003c43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-kanan {
+  width: 60vh;
+  margin-right: 10vh;
+}
+
+.title-skill {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #003c43;
+}
+
+.title-skill-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+
+.col-4 {
+  height: 71vh;
+  display: flex;
+  justify-content: center;
+}
+
+.square-box {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #003c43;
+  border-radius: 20px;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.square-box i {
+  font-size: 3rem;
+}
+
+.square-box:hover {
+  background-color: #006b77;
+  width: 260px;
+  height: 260px;
+  box-shadow: 7px 5px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.aboutme {
+  background-color: #003c43;
+  height: 100vh;
+}
+
+.picofme {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003c43;
+}
+
+.picofme img {
+  height: 500px;
+}
+
+.datadiri {
+  height: 100vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.datadiri h1 {
+  color: #003c43;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.datadiri p {
+  text-align: justify;
+}
+
+.bg-row {
+  background-color: #003c43;
+}
+
+.framing {
+  width: 500px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.framing img {
+  width: 400px;
+  height: 250px;
+  transition: all 0.3s;
+}
+
+.framing img:hover {
+  width: 450px;
+  height: 300px;
+}
+
+.ct-me {
+  color: #003c43;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.c-email {
+  height: 70vh;
+  color: #003c43;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-email img {
+  width: 20vh;
+  transition: width 0.2s;
+}
+
+.c-email img:hover {
+  width: 22vh;
+}
+
+.c-instagram {
+  height: 70vh;
+  color: #003c43;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-instagram img {
+  width: 18vh;
+  margin-bottom: 15px;
+  transition: width 0.2s;
+}
+
+.c-instagram img:hover {
+  width: 20vh;
+}
+
+.c-github {
+  height: 70vh;
+  color: #003c43;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-github img {
+  width: 18vh;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 25px;
+  transition: width 0.2s;
+}
+
+.c-github img:hover {
+  width: 20vh;
+}
